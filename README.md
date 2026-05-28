@@ -8,8 +8,6 @@ I have built an interactive dashboard to visualize the findings. You can explore
 
 [![Revenue & Traffic Analytics Dashboard](СЮДИ_ВСТАВ_ПОСИЛАННЯ_НА_КАРТИНКУ_ВІД_GITHUB)](https://public.tableau.com/app/profile/yaroslav.matvienko/viz/RevenueTrafficAnalytics/RevenueTrafficAnalytics#1)
 
-*(Note: Simply drag and drop your dashboard screenshot into the GitHub editor to generate the image link, and replace the placeholder text above.)*
-
 ## 💡 Key Business Insights
 * **The "Guest" Paradox (Registration vs. Revenue):** Contrary to traditional marketing assumptions, unregistered (guest) users generate the absolute majority of total daily revenue. Furthermore, they exhibit a **statistically significant higher Average Order Value (AOV)** ($953 vs. $891, $p = 0.034$). *Business Recommendation: Avoid forcing registration at checkout, especially for high-ticket items, to prevent friction and revenue drop.*
 * **Traffic Channel Purchasing Power:** While `Organic Search` and `Paid Search` drive over 60% of all successful sessions, a Kruskal-Wallis H-test ($p < 0.05$) confirmed that user purchasing power varies significantly across channels. Not all traffic volumes translate equally into high-value baskets.
