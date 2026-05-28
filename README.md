@@ -3,6 +3,13 @@
 ## 🎯 Project Overview
 This project focuses on analyzing user purchasing behavior and evaluating the effectiveness of marketing acquisition channels for an e-commerce platform. By applying statistical hypothesis testing, the analysis uncovers actionable business insights regarding user registration value, Average Order Value (AOV), and traffic quality to optimize marketing spend and improve checkout conversion funnels.
 
+## 📊 Interactive Tableau Dashboard
+I have built an interactive dashboard to visualize the findings. You can explore the data dynamically by clicking the image below:
+
+[![Revenue & Traffic Analytics Dashboard](СЮДИ_ВСТАВ_ПОСИЛАННЯ_НА_КАРТИНКУ_ВІД_GITHUB)](https://public.tableau.com/app/profile/yaroslav.matvienko/viz/RevenueTrafficAnalytics/RevenueTrafficAnalytics#1)
+
+*(Note: Simply drag and drop your dashboard screenshot into the GitHub editor to generate the image link, and replace the placeholder text above.)*
+
 ## 💡 Key Business Insights
 * **The "Guest" Paradox (Registration vs. Revenue):** Contrary to traditional marketing assumptions, unregistered (guest) users generate the absolute majority of total daily revenue. Furthermore, they exhibit a **statistically significant higher Average Order Value (AOV)** ($953 vs. $891, $p = 0.034$). *Business Recommendation: Avoid forcing registration at checkout, especially for high-ticket items, to prevent friction and revenue drop.*
 * **Traffic Channel Purchasing Power:** While `Organic Search` and `Paid Search` drive over 60% of all successful sessions, a Kruskal-Wallis H-test ($p < 0.05$) confirmed that user purchasing power varies significantly across channels. Not all traffic volumes translate equally into high-value baskets.
@@ -25,16 +32,5 @@ This project focuses on analyzing user purchasing behavior and evaluating the ef
 
 ## 🚀 How to Run the Project
 1. Clone this repository:
-[https://github.com/yaRiick/ecommerce-statistical-analysis.git](https://github.com/yaRiick/ecommerce-statistical-analysis.git)
-2. Open the .ipynb file in Google Colab or Jupyter Notebook.
-
-3. Ensure you have access to the Google Cloud BigQuery dataset data-analytics-mate.DA or replace the client initialization block with your own data source.
-
-4. Install required libraries:
-pip install pandas numpy matplotlib seaborn scipy
-
-5. Run all cells sequentially to execute data extraction, mathematical modeling, and visualization generation.
-
-Author: Yaroslav Matvienko
-
-Feel free to connect or review my other data analytics projects!
+   ```bash
+   git clone [https://github.com/yaRiick/ecommerce-statistical-analysis.git](https://github.com/yaRiick/ecommerce-statistical-analysis.git)
