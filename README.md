@@ -29,8 +29,3 @@ I have built an interactive dashboard to visualize the findings. You can explore
 ## 📂 Repository Structure
 * `Yaroslav_Matvienko_Ecommerce_Statistical_Analysis.ipynb` — The core Jupyter Notebook containing full data pipeline: authentication, SQL query, data cleaning, EDA, statistical testing, and visualizations.
 * `README.md` — Project description and executive summary of key insights.
-
-## 🚀 How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/yaRiick/ecommerce-statistical-analysis.git](https://github.com/yaRiick/ecommerce-statistical-analysis.git)
